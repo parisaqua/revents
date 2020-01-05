@@ -8,15 +8,15 @@ class NavBar extends Component {
                    <Container>
                      <Menu.Item header>
                        <img src="assets/logo.png" alt="logo" />
-                       Re-vents
+                       A ne pas rater !
                      </Menu.Item>
-                     <Menu.Item name="Events" />
+                     <Menu.Item name="Evènements" />
                      <Menu.Item>
-                       <Button floated="right" positive inverted content="Create Event" />
+                       <Button floated="right" positive inverted content="Nouvel évènement" />
                      </Menu.Item>
                      <Menu.Item position="right">
-                       <Button basic inverted content="Login" />
-                       <Button basic inverted content="Sign Out" style={{marginLeft: '0.5em'}} />
+                       <Button basic inverted content="Connexion" />
+                       <Button basic inverted content="Déconnexion" style={{marginLeft: '0.5em'}} />
                      </Menu.Item>
                    </Container>
                  </Menu>

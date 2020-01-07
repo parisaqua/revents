@@ -19,5 +19,5 @@ class App extends Component {
 
 export default App;
 
-// git clone https//..... puis sudo npm install
+// git clone https//..... puis sudo npm install git puis pull à chaque ouverture
 

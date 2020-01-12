@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Segment, Form, Button } from 'semantic-ui-react';
+//import { isThisHour } from 'date-fns';
 
 class EventForm extends Component {
 
@@ -21,8 +22,12 @@ class EventForm extends Component {
     
     handleFormSubmit = evt => {
         evt.preventDefault();
-        this.props.createEvent(this.state);
-    }
+        if (this.state.id) {
+            this.props.updateEvent(this.state);
+        } else {
+            this.props.createEvent(this.state);
+        }
+    };
 
     handleInputChange = ({target: {name, value}}) => {
         this.setState({

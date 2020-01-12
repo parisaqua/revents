@@ -3,7 +3,7 @@ import React from 'react'
 const BasicPage = () => {
     return (
         <div>
-            
+            <h1>Page basic</h1>
         </div>
     )
 }

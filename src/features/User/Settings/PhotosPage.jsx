@@ -3,7 +3,7 @@ import React from 'react'
 const PhotosPage = () => {
     return (
         <div>
-            <h1>Page des photos</h1>
+            <h1>Mes photos</h1>
         </div>
     )
 }

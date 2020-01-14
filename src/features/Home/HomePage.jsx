@@ -12,10 +12,10 @@ const HomePage = ({history}) => {
                   alt='logo'
                   style={{ marginBottom: 12 }}
                 />
-                Re-vents
+                Rencards
               </Header>
               <Button onClick={() => history.push('/events')} size='huge' inverted>
-                Get started
+                Prêt, partez !
                 <Icon name='right arrow' inverted />
               </Button>
             </Container>

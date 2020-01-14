@@ -28,6 +28,7 @@ class NavBar extends Component {
                     </Menu.Item>
                     <Menu.Item as={NavLink} to='/events' name="Evènements" />
                     <Menu.Item as={NavLink} to='/people' name="Membre" />
+                    <Menu.Item as={NavLink} to='/test' name="Test Area" />
                     <Menu.Item>
                       <Button as={Link} to='createEvent' floated="right" positive inverted content="Nouvel évènement" />
                     </Menu.Item>
